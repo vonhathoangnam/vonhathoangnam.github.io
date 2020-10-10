@@ -1,0 +1,339 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace"
+}
+body {
+	background-color:#DBBE8D;
+}
+header{
+	text-align: center;
+	padding-top:  150px ;
+	background-image:url("111/73515768_2695171047208087_4511578504080392192_o.jpg");
+	background-size: cover;
+	height:500px;
+}
+header i{
+	padding:30px 10px 10px 10px ;
+}
+#down {
+	font-size: 15px;
+	text-decoration-color: black;}
+#down {
+	-webkit-animation: slide-bottom 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite both;
+	        animation: slide-bottom 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite both;
+}
+
+@-webkit-keyframes slide-bottom {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(100px);
+            transform: translateY(100px);
+  }
+}
+@keyframes slide-bottom {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(100px);
+            transform: translateY(100px);
+  }
+}
+
+header h1{
+	font-size: 50px;
+	color:#F1D2A9;
+}
+nav a{
+	display:block;
+	text-decoration: none;
+	color:antiquewhite;
+	margin-right: 20px;
+}
+nav li :hover{
+	color:chocolate;
+		
+}
+nav li{
+	display:inline;
+	margin:5px 15px;
+	float:right;
+}
+nav {
+	position: fixed;
+    top: 0;
+    right: 0;
+	width:100%;
+	font-size: 20px;
+	background-color:#E9BC74;
+	z-index: 900;
+	
+}
+#scroll{
+	display:none;
+	border:none;
+	color:black;
+	border-radius: 20%;
+	bottom: 40px;
+	right: 40px;
+	position:fixed;
+	z-index: 99;
+}
+#scroll :hover {
+	color:darkgray;
+}
+#section1 div {
+	float:left;
+	width:50%;
+	padding: 130px 30px 100px 100px;
+}
+#section1 img {
+	width:30%;
+	padding-top:50px;
+}
+#section2 {
+	text-align:center;
+	padding:50px 100px 200px 40px;
+	background-color:#DBC6A2;
+}
+#section2 h2 {
+	text-align: center;
+	width:90%;
+	font-size: 35px;
+	color: chocolate;
+}
+#section2 div {
+	width :40%;
+	height: 30%;
+	float:left;
+	text-align: center;
+	
+}
+#section2 p {
+	width:50%;
+	float:right;
+}
+#section3 div {
+	float:left;
+	width:35%;
+	margin:50px;
+}
+#skill { 
+	float:right;
+	list-style: none;
+	width: 40%;
+	margin: 50px;
+	position: relative;
+	line-height: 2em;
+	padding: 30px ;
+}
+
+#skill li { 
+	margin-bottom:50px; 
+	background:#e9e5e2;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#e1ddd9), to(#e9e5e2));
+	background-image: -webkit-linear-gradient(top, #e1ddd9, #e9e5e2);
+	background-image: -moz-linear-gradient(top, #e1ddd9, #e9e5e2);
+	background-image: -ms-linear-gradient(top, #e1ddd9, #e9e5e2);
+	background-image: -o-linear-gradient(top, #e1ddd9, #e9e5e2);
+	background-image: linear-gradient(top, #e1ddd9, #e9e5e2);  
+	height:20px; 
+	border-radius:10px; 
+	-moz-box-shadow: 0 1px 0px #bebbb9 inset, 0 1px 0 #fcfcfc;	 
+	-webkit-box-shadow: 0 1px 0px #bebbb9 inset, 0 1px 0 #fcfcfc;	 
+	box-shadow: 0 1px 0px #bebbb9 inset, 0 1px 0 #fcfcfc;	  
+}
+
+#skill li p { 
+	position:relative; 
+	top:-25px;
+}
+
+.bar { 
+	height:18px; 
+	margin:1px 2px;  
+	position:absolute;
+	border-radius:10px;
+	-moz-box-shadow: 0 1px 0px #fcfcfc inset, 0 1px 0 #bebbb9;
+	-webkit-box-shadow: 0 1px 0px #fcfcfc inset, 0 1px 0 #bebbb9;	 
+	box-shadow: 0 1px 0px #fcfcfc inset, 0 1px 0 #bebbb9;		
+}
+
+.illustrator {
+	width:80%; 
+	-moz-animation:illustrator 2s ease-out;
+	-webkit-animation:illustrator 2s ease-out;
+	background-color: #000000;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#000000), to(#d9aa44));
+	background-image: -webkit-linear-gradient(top, #000000, #d9aa44);
+	background-image: -moz-linear-gradient(top, #000000, #d9aa44);
+	background-image: -ms-linear-gradient(top, #000000, #d9aa44);
+	background-image: -o-linear-gradient(top, #000000, #d9aa44);
+	background-image: linear-gradient(top, #000000, #d9aa44);
+}
+
+.photoshop {
+	width:70%;
+	-moz-animation:photoshop 2s ease-out;
+	-webkit-animation:photoshop 2s ease-out;
+	background-color: #000000;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#000000), to(#d9aa44));
+	background-image: -webkit-linear-gradient(top, #000000, #d9aa44);
+	background-image: -moz-linear-gradient(top, #000000, #d9aa44);
+	background-image: -ms-linear-gradient(top, #000000, #d9aa44);
+	background-image: -o-linear-gradient(top, #000000, #d9aa44);
+	background-image: linear-gradient(top, #000000, #d9aa44);
+}
+
+.indesign {
+	width:65%;
+	-moz-animation:indesign 2s ease-out;
+	-webkit-animation:indesign 2s ease-out;
+	background-color: #000000;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#000000), to(#d9aa44));
+	background-image: -webkit-linear-gradient(top, #000000, #d9aa44);
+	background-image: -moz-linear-gradient(top, #000000, #d9aa44);
+	background-image: -ms-linear-gradient(top, #000000, #d9aa44);
+	background-image: -o-linear-gradient(top, #000000, #d9aa44);
+	background-image: linear-gradient(top, #000000, #d9aa44);
+}
+
+.dreamweaver {
+	width:40%;
+	-moz-animation:dreamweaver 2s ease-out;
+	-webkit-animation:dreamweaver 2s ease-out;
+	background-color: #000000;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#000000), to(#d9aa44));
+	background-image: -webkit-linear-gradient(top, #000000, #d9aa44);
+	background-image: -moz-linear-gradient(top, #000000, #d9aa44);
+	background-image: -ms-linear-gradient(top, #000000, #d9aa44);
+	background-image: -o-linear-gradient(top, #000000, #d9aa44);
+	background-image: linear-gradient(top, #000000, #d9aa44);
+}	
+@-moz-keyframes illustrator {0%  { width:0px;} 100%{ width:80%;}  }
+@-moz-keyframes photoshop        { 0%  { width:0px;} 100%{ width:70%;}  }
+@-moz-keyframes indesign      { 0%  { width:0px;} 100%{ width:65%;}  }
+@-moz-keyframes dreamweaver   { 0%  { width:0px;} 100%{ width:40%;}  }
+
+@-webkit-keyframes illustrator       { 0%  { width:0px;} 100%{ width:80%;}  }
+@-webkit-keyframes photoshop        { 0%  { width:0px;} 100%{ width:70%;}  }
+@-webkit-keyframes indesign      { 0%  { width:0px;} 100%{ width:65%;}  }
+@-webkit-keyframes dreamweaver   { 0%  { width:0px;} 100%{ width:40%;}  }
+
+#section4 {
+	padding-left: 30px;
+	text-align: center;
+}
+#section4 h2 {
+	float:left;
+	width:100%;
+}
+#section4 img{
+	width:29%;
+	float:left;
+	padding:20px ;
+}
+#porfo1 {
+	padding:20px 15px;
+}
+#section5 {
+	width:100%;
+	float:left;
+	text-align: center;
+	background-color:antiquewhite;
+	padding: 20px 0px;
+	
+}
+#section5 div{
+	width:33%;
+	float:left;
+	text-align: center;
+}
+#section5 i{
+	font-size: 25px;
+	padding-bottom: 10px;
+}
+#section6 {
+	width:100%;
+	float:left;
+	text-align: center;
+	padding: 20px 0px;
+}
+#section6 div{
+	width:33%;
+	float:left;
+	text-align: center;
+}
+#section6 h2,a {
+	text-align: center;
+	text-decoration: none;
+	color:black;
+}
+footer div{
+	float:left;
+	width:100%;
+	text-align: center;
+	color:white;
+	background-color:#BFA67D;
+	padding: 50px 0px;
+}
+@media(max-width:375px){
+	header {
+		padding-top: 70px;
+	}
+	header h1{
+		font-size:25px;
+	}
+	nav li{
+		font-size: 11px;
+		margin: 3px 8px;
+	}
+	#scroll{
+		bottom:20px;
+		right:20px;
+		font-size: 15px;
+	}
+	#section1 div{
+		width:90%;
+		margin: 0px;
+		padding:15px; 
+	}
+	#section1 img {
+		width:100%;
+	}
+	#section2{
+		background-color: gold;
+		padding: 50px 15px 400px;
+	}
+#section2 div {
+	width :100%;
+	text-align: center;
+}
+#section2 p {
+	width:100%;
+}
+	#section3 div{
+		width:85%;
+	    margin-left: 15px;
+		margin-right: 15px;
+	}
+	#skill {
+		width:80%;
+		margin:10px;
+	}
+	#section4 img{
+		padding:8px;
+		width:43%;
+	}
+	#section5 div{
+	width:100%;
+}
+}
+
